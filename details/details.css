@@ -1,0 +1,126 @@
+/* CSS Layout Document for 'TheSmallHost' home page */
+
+
+
+body {
+	font-size: 14px;
+	background-color: #fff;
+}
+#mainheading {
+	width: 70%;
+	margin: 0em auto 0em auto;
+	text-align: center;
+	font-size: 6em;
+	font-weight: 900;
+	letter-spacing: -0.01em;
+	font-family: 'Playfair Display', serif;
+}
+#subheading {
+	width: 70%;
+	margin: 1em auto 0em auto;
+	text-align: left;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0em;
+	font-family: 'Roboto', sans-serif;
+}
+.maincontent {
+	width: 70%;
+	margin: 1em auto 0em auto;
+	text-align: left;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: -0.01em;
+	line-height: 1.4em;
+	font-family: 'Roboto', sans-serif;
+	color: #323232;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+MEDIA QUERIE RULE
+
+Media querie code should always go at the end of the whole CSS code.
+
+Media querie code always starts with @media screen and (max-width: 680px) { CSS CODE GOES HERE }
+
+or 
+
+@media (orientation: landscape)  (max-width: 680px) { CSS CODE GOES HERE }
+@media (orientation: portrait) (max-width: 680px) { CSS CODE GOES HERE }
+
+'max-width' = Designing for a desktop first working your way down to mobile
+'min-width' = Designing for a desktop first working your way down to mobile 
+
+*/
+
+
+
+
+@media screen and (max-width: 680px) {  
+
+body {
+	font-size: 16px;
+	background-color: #EFEFEF;
+}
+#mainheading {
+	font-size: 2.5em;
+	color: #8C8C8C;
+	text-align: right;
+}
+#subheading {
+	width: 70%;
+	margin: 1em auto 0em auto;
+	text-align: left;
+	font-size: 2.5em;
+	color: #000000;
+}
+.maincontent {
+	width: 70%;
+	margin: 1em auto 0em auto;
+	text-align: left;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: -0.01em;
+	line-height: 1.4em;
+	font-family: 'Roboto', sans-serif;
+	color: #464646;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+div class = .link ( use many times )
+
+div id = #link ( use once )
+
+*/
