@@ -7,56 +7,34 @@ body {
 	background-color: #fff;
 }
 #mainheading {
-	width: 99%;
-	margin: 1em auto 0em auto;
+	width: 70%;
+	margin: 0em auto 0em auto;
 	text-align: center;
 	font-size: 6em;
-	font-weight: 700;
+	font-weight: 900;
 	letter-spacing: -0.01em;
 	font-family: 'Playfair Display', serif;
 }
 #subheading {
-	width: 50%;
+	width: 70%;
 	margin: 1em auto 0em auto;
-	text-align: center;
-	font-size: 2em;
-	font-weight: 100;
-	color: rgb(177, 0, 0);
+	text-align: left;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0em;
 	font-family: 'Roboto', sans-serif;
 }
-
 .maincontent {
 	width: 70%;
 	margin: 1em auto 0em auto;
-	text-align: center;
-	font-size: 3.2em;
+	text-align: left;
+	font-size: 2em;
 	font-weight: 300;
-	color: rgba(53,53,53,1.00);
+	letter-spacing: -0.01em;
+	line-height: 1.4em;
 	font-family: 'Roboto', sans-serif;
-}
-
-.maincontent a:link, a:visited, a:active {
-	color: #FF5700;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-}
-.maincontent a:hover {
-	color: #003CFF;
-}
-
-
-#socialcontainer {
-	width: 50%;
-	height: 32px;
-	margin: 2em auto;
-	display:flex; 
-}
-.icon {
-	margin: 0em auto;
-	width: 32px;
-	height: 32px;
-
+	color: #323232;
 }
 
 
@@ -90,36 +68,37 @@ or
 */
 
 
-/*-----------------------------------------------------------------*/
+
+
 @media screen and (max-width: 680px) {  
 
+body {
+	font-size: 16px;
+	background-color: #EFEFEF;
+}
 #mainheading {
-	margin: 5em auto 0 auto;
-	width: 99%;
 	font-size: 2.5em;
-	color: #FFFFFF;
-	font-weight: 900;
-	font-family: 'Playfair Display', serif;
+	color: #8C8C8C;
+	text-align: right;
 }
 #subheading {
-	width: 80%;
-	font-size: 1.1em;
-	color: #FF9600;
-	text-align: center;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
+	width: 70%;
+	margin: 1em auto 0em auto;
+	text-align: left;
+	font-size: 2.5em;
+	color: #000000;
 }
-
 .maincontent {
-	width: 80%;
+	width: 70%;
 	margin: 1em auto 0em auto;
 	text-align: left;
 	font-size: 2em;
 	font-weight: 300;
-	color: #fff;
+	letter-spacing: -0.01em;
+	line-height: 1.4em;
 	font-family: 'Roboto', sans-serif;
+	color: #464646;
 }
-
 }
 
 
