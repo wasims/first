@@ -3,7 +3,7 @@
 
 
 body {
-	font-size: 14px;
+	font-size: 15px;
 	background-color: #fff;
 }
 #mainheading {
@@ -39,6 +39,30 @@ body {
 }
 
 
+
+#bottomtextone {
+	width: 60%;
+	margin: 1em auto 0em auto;
+	text-align: left;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: -0.01em;
+	line-height: 1.4em;
+	font-family: 'Roboto', sans-serif;
+	color: #D93C00;
+}
+#bottomtexttwo {
+	width: 60%;
+	margin: 1em auto 0em auto;
+	text-align: left;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: -0.01em;
+	line-height: 1.4em;
+	font-family: 'Roboto', sans-serif;
+	color: #323232;
+	display: none;
+}
 
 
 
@@ -90,6 +114,22 @@ body {
 	width: 85%;
 	color: #FFFFFF;
 }
+
+
+#bottomtextone {
+	display: none;
+}
+#bottomtexttwo {
+	width: 85%;
+	font-size: 1.5em;
+	color: #FF8E00;
+	display: block;
+	margin-top: 2em;
+	padding-top: 1em;
+	border-top: 1px dotted #D56A00;
+}
+
+
 }
 
 
